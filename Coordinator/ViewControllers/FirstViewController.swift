@@ -18,7 +18,7 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         button.addAction(UIAction(handler: { _ in
-            self.coordinator?.gotoSecondViewController()
+            self.coordinator?.gotoSecondViewController(labelText: "Some Text")
         }), for: .touchUpInside)
     }
 }

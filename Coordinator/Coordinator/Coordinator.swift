@@ -25,8 +25,9 @@ class MainCoordinator: Coordinator {
         
     }
     
-    func gotoSecondViewController() {
+    func gotoSecondViewController(labelText: String) {
         let vc: SecondViewController = SecondViewController.instantiate(appStoryboard: .main)
+        vc.labelText = labelText
         navigationController.pushViewController(vc, animated: true)
     }
 }

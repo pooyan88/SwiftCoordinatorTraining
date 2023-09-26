@@ -82,6 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0ACE34C2AC316AD0013A504 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0F643732AC2D1BC00EBE42A /* FirstViewController.swift */,
+				E0F6439F2AC2D22500EBE42A /* SecondViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E0ACE34E2AC316C40013A504 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E0F643A12AC2D29400EBE42A /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E0ACE34F2AC316CE0013A504 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E0ACE34A2AC2FCA60013A504 /* UIViewControllerExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E0F643632AC2D1BC00EBE42A = {
 			isa = PBXGroup;
 			children = (
@@ -105,12 +130,11 @@
 		E0F6436E2AC2D1BC00EBE42A /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				E0ACE34F2AC316CE0013A504 /* Extensions */,
+				E0ACE34E2AC316C40013A504 /* Coordinator */,
+				E0ACE34C2AC316AD0013A504 /* ViewControllers */,
 				E0F6436F2AC2D1BC00EBE42A /* AppDelegate.swift */,
 				E0F643712AC2D1BC00EBE42A /* SceneDelegate.swift */,
-				E0F643732AC2D1BC00EBE42A /* FirstViewController.swift */,
-				E0F6439F2AC2D22500EBE42A /* SecondViewController.swift */,
-				E0F643A12AC2D29400EBE42A /* Coordinator.swift */,
-				E0ACE34A2AC2FCA60013A504 /* UIViewControllerExtensions.swift */,
 				E0F643752AC2D1BC00EBE42A /* Main.storyboard */,
 				E0F643782AC2D1BD00EBE42A /* Assets.xcassets */,
 				E0F6437A2AC2D1BD00EBE42A /* LaunchScreen.storyboard */,
